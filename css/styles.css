@@ -1,0 +1,33 @@
+body {
+    background: url(../img/antivillain_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    font-family: helvetica, arial, sans-serif;
+}
+
+.logo {
+    width: 100%;
+    height: 350px;
+    margin: 10% 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+h1.title {
+
+}
+
+h1.title img {
+    width: 237px;
+    height: 315px;
+    margin: 0;
+}
+
+p {
+    margin: 0 0 20px;
+}
