@@ -8,16 +8,16 @@ main:
     child:
       - name: "I Saw a Stranger on the Freeway"
         description: "Book"
-        url: /projects/i-saw-a-stranger-on-the-freeway/
+        url:  /projects/i-saw-a-stranger-on-the-freeway
       - name: "Secrets with Strangers"
         description: "Album"
-        url: /projects/secrets-with-strangers/
+        url: /projects/secrets-with-strangers
       - name: "Sad Bastard Brothers"
         description: "Album"
-        url: /projects/sad-bastard-brothers/
+        url: /projects/sad-bastard-brothers
       - name: "Other Media"
         description: "Art, Design, Film, Words"
-        url: /projects/other-media/
+        url: /projects/other-media
   - name: Blog
     url: /blog/
     weight: 2
@@ -31,13 +31,13 @@ main:
 
 footer_primary:
   - name: "I Saw a Stranger on the Freeway"
-    url: /projects/i-saw-a-stranger-on-the-freeway/
+    url: /projects/i-saw-a-stranger-on-the-freeway
   - name: "Secrets with Strangers"
-    url: /projects/secrets-with-strangers/
+    url: /projects/secrets-with-strangers
   - name: "Sad Bastard Brothers"
-    url: /projects/sad-bastard-brothers/
+    url: /projects/sad-bastard-brothers
   - name: "Other Media"
-    url: /projects/other-media/
+    url: /projects/other-media
 
 footer_secondary:
   - name: Blog
