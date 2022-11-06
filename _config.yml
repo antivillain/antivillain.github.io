@@ -129,7 +129,7 @@ disqus:
   shortname: ""
 
 mailchimp:
-  form_action_url: https://zerostatic.us13.list-manage.com/subscribe/post?u=675276692aebec1c007f8156d&amp;id=3e3da720c2
+  form_action_url: https://anti-villain.us21.list-manage.com/subscribe/post?u=539224f65cd9eb5973aaf7e7c&amp;id=74c27cacbc&amp;f_id=0076c7e1f0
 
 contact_form: 
   use_netlify_form: false
