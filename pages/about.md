@@ -16,7 +16,7 @@ This site exists to promote new work by yours truly.
 
 ## And who am I?
 
-Also previously mentioned, I'm Shawn Coots. You can learn more about my professional experience at my other [website](https://shawncoots.com).
+Also previously mentioned, I'm Shawn Coots. I'm a Product Manager by day, aspiring writer, artist, and musician by night.
 
 I live in Louisville, Kentucky with my lovely wife, two small children and one grey cat named Grey Cat. 
 
