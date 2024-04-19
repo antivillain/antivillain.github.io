@@ -24,7 +24,7 @@ The five stories recall a distant time - when you'd find yourself driving along 
 
 ### Tickled
 
-The doldrums of a dead-end retail gig are interrupted by a bizarre phone call. [Read an excerpt](/articles/tickled-excert/)
+The doldrums of a dead-end retail gig are interrupted by a bizarre phone call. [Read an excerpt](/blog/tickled-excert/)
 
 ### Hell is Real (Estate)
 
@@ -36,11 +36,11 @@ A desperate teenager begs his guitar instructor to teach him the devil's music.
 
 ### Kayfabe
 
-Two wrestlers struggle to stay in character while touring the deep south. [Read an excerpt](/articles/kayfabe-excert/)
+Two wrestlers struggle to stay in character while touring the deep south. [Read an excerpt](/blog/kayfabe-excert/)
 
 ### The Cleanest Gas Station Bathroom in all of Georgia
 
-An insecure photographer chases fame, but finds something more sinister. [Read an excerpt](/articles/cleanest-gas-station-excert/)
+An insecure photographer chases fame, but finds something more sinister. [Read an excerpt](/blog/cleanest-gas-station-excert/)
 
 #### Links
 
