@@ -143,6 +143,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"cruise-vs-reeves.md": {
+	id: "cruise-vs-reeves.md";
+  slug: "cruise-vs-reeves";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "kayfabe-excert.md": {
 	id: "kayfabe-excert.md";
   slug: "kayfabe-excert";
