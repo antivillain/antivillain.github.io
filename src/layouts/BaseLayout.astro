@@ -21,6 +21,16 @@ const { showHeader = true, ...head } = Astro.props;
         </script>
         <ViewTransitions />
     </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5WH281S84"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-V5WH281S84');
+    </script>
+
     <body class="bg-main text-main">
         <div class="flex flex-col min-h-screen px-4 md:px-8">
             <Header />
