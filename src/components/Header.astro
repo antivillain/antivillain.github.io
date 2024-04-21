@@ -6,7 +6,7 @@ import siteConfig from '../data/site-config';
     {
         siteConfig.logo && siteConfig.logo?.src ? (
             <a href="/" class="font-sans logo-link">
-                <img src={siteConfig.logo.src} alt={siteConfig.logo.alt || ''} class="logo" />
+                <img src={siteConfig.logo.src} alt={siteConfig.logo.alt || ''} class="logo" width="33px" height="43px" />
                 <span class="title">{siteConfig.title}</span>
             </a>
         ) : (
@@ -50,7 +50,8 @@ import siteConfig from '../data/site-config';
     }
 
     .logo {
-        max-height: 12; /* Adjust this value as needed */
+        width: 33px;
+        height: 43px;
         margin-right: 10px; /* Adds space between the logo and the title */
     }
 
