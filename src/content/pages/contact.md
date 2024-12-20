@@ -9,7 +9,7 @@ Have questions or feedback on any of my content? Want to work together on an exc
 
 ### Email
 
-Email me at [example@example.com](mailto:shawn@anti-villain.com), and I'll do my best to respond as soon as possible.
+Email me at [shawn@anti-villain.com](mailto:shawn@anti-villain.com), and I'll do my best to respond as soon as possible.
 
 ### Elsewhere
 
