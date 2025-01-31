@@ -22,21 +22,13 @@ const { showHeader = true, ...head } = Astro.props;
         <ViewTransitions />
     </head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5WH281S84" is:inline></script>
-    <script is:inline>
-    // Type declarations
-    interface Window {
-        dataLayer: any[];
-        gtag: (...args: any[]) => void;
-    }
-    
-    // Google Analytics setup
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZ392B2RLT"></script>
+    <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(...args: any[]) {
-        window.dataLayer.push(arguments);
-    }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-V5WH281S84');
+
+    gtag('config', 'G-JZ392B2RLT');
     </script>
 
     <body class="bg-main text-main">
