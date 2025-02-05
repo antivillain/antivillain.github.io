@@ -13,8 +13,6 @@ seo:
 
 ![Idea Becomes Story](/img/blog-idea_becomes_story.png)
 
-## Ideas that blossom into stories
-
 Sometimes, you get really lucky. If you’re open to it, an idea will just pop into your head. I remember this one vividly. It happened in the summer of 2012. I was sitting behind my computer, working on a WordPress theme. While I was typing up some CSS, my mind started wandering. I was in a flow state, daydreaming. The idea went something like this:
 
 “Time travel might not be possible. Matter can only exist in its current state and time. But what if data could be malleable and show up anywhere, anytime?”
@@ -29,7 +27,7 @@ The blog post sparked a lot of discussion, but I didn’t feel like including a 
 
 And grow it did! In May of last year, the story finally came to life while I was on a road trip. Once it started getting traction, I had to decide how I wanted to tell it.
 
-I’ve shared many stories in various ways over the years, but I’ve never made one myself. A friend recently self-published an ongoing comic on Webtoon, and I was really drawn to the idea of releasing episodes digitally right away.
+I’ve shared many stories in various mediums over the years, but I’ve never made a comic book myself. A friend recently self-published an ongoing story on Webtoon, and I was really drawn to the idea of releasing episodes digitally.
 
 So, here’s what I did to make sure I actually finished what I started:
 
