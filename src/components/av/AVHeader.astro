@@ -1,0 +1,121 @@
+---
+import ThemeToggle from '../ThemeToggle.astro';
+import siteConfig from '../../data/site-config';
+
+export type Props = {
+    category?: string;
+    backHref?: string;
+};
+
+const { category, backHref = '/' } = Astro.props;
+
+const navLinks = [
+    { href: '/projects', text: 'Projects' },
+    { href: '/blog', text: 'Articles' },
+    { href: '/about', text: 'About' },
+];
+---
+
+<header class="w-full sticky top-0 z-50 bg-white dark:bg-black font-sans">
+
+    <!-- Row 1: Global nav bar -->
+    <div class="w-full border-b border-black dark:border-white">
+        <div class="max-w-screen-xl mx-auto px-6 md:px-10 flex items-center justify-between h-12">
+
+            <!-- Wordmark -->
+            <a
+                href="/"
+                class="text-sm font-bold uppercase tracking-widest text-black dark:text-white hover:opacity-70 transition-opacity"
+            >
+                {siteConfig.title}
+            </a>
+
+            <!-- Desktop nav + toggle -->
+            <div class="hidden md:flex items-center gap-8">
+                {navLinks.map((link) => (
+                    <a
+                        href={link.href}
+                        class="text-xs font-normal uppercase tracking-widest text-black dark:text-white hover:opacity-70 transition-opacity"
+                    >
+                        {link.text}
+                    </a>
+                ))}
+                <ThemeToggle />
+            </div>
+
+            <!-- Mobile: hamburger -->
+            <button
+                class="menu-toggle md:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5"
+                aria-label="Open Menu"
+                aria-expanded="false"
+                aria-controls="av-menu"
+            >
+                <span class="menu-bar block w-5 h-px bg-black dark:bg-white transition-all"></span>
+                <span class="menu-bar block w-5 h-px bg-black dark:bg-white transition-all"></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile menu drawer -->
+    <div
+        id="av-menu"
+        class="av-menu hidden md:hidden border-b border-black dark:border-white bg-white dark:bg-black"
+    >
+        <div class="max-w-screen-xl mx-auto px-6 py-6 flex flex-col gap-4">
+            {navLinks.map((link) => (
+                <a
+                    href={link.href}
+                    class="text-xs font-normal uppercase tracking-widest text-black dark:text-white hover:opacity-70 transition-opacity"
+                >
+                    {link.text}
+                </a>
+            ))}
+            <div class="pt-2">
+                <ThemeToggle />
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 2: Page context bar (interior pages only) -->
+    {category && (
+        <div class="w-full border-b border-black dark:border-white">
+            <div class="max-w-screen-xl mx-auto px-6 md:px-10 flex items-center justify-between h-10">
+                <a
+                    href={backHref}
+                    class="text-xs font-normal uppercase tracking-widest text-black dark:text-white hover:opacity-70 transition-opacity flex items-center gap-2"
+                >
+                    ← Back
+                </a>
+                <span class="text-xs font-bold uppercase tracking-widest text-black dark:text-white">
+                    {category}
+                </span>
+            </div>
+        </div>
+    )}
+</header>
+
+<script>
+    function initMenu() {
+        const toggle = document.querySelector('.menu-toggle');
+        const menu = document.getElementById('av-menu');
+        const bars = document.querySelectorAll('.menu-bar');
+
+        toggle?.addEventListener('click', () => {
+            const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+            menu?.classList.toggle('hidden');
+
+            // Animate bars into X
+            if (!isOpen) {
+                bars[0]?.classList.add('rotate-45', 'translate-y-[7px]');
+                bars[1]?.classList.add('-rotate-45', '-translate-y-[7px]');
+            } else {
+                bars[0]?.classList.remove('rotate-45', 'translate-y-[7px]');
+                bars[1]?.classList.remove('-rotate-45', '-translate-y-[7px]');
+            }
+        });
+    }
+
+    initMenu();
+    document.addEventListener('astro:after-swap', initMenu);
+</script>
