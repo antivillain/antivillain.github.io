@@ -2,20 +2,20 @@
 
 ---
 
-<button id="theme-toggle" class="w-8 h-8 -mr-2 flex items-center justify-center" aria-label="Change color scheme">
+<button data-theme-toggle class="w-8 h-8 -mr-2 flex items-center justify-center" aria-label="Change color scheme">
     <!-- <svg class="w-4 h-4 fill-current" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"> -->
     <!-- <circle cx="8" cy="8" r="8"></circle> -->
     <!-- </svg> -->
 </button>
 
 <style>
-    html #theme-toggle {
+    html [data-theme-toggle] {
         background-image: url('/icons/theme-light.svg');
         width: 42px;
         height: 42px;
     }
 
-    html.dark #theme-toggle {
+    html.dark [data-theme-toggle] {
         background-image: url('/icons/theme-dark.svg');
     }
 </style>
@@ -48,7 +48,9 @@
             localStorage.setItem('theme', isDark ? 'dark' : 'light');
         };
 
-        document.getElementById('theme-toggle')?.addEventListener('click', handleToggleClick);
+        document.querySelectorAll('[data-theme-toggle]').forEach(btn => {
+            btn.addEventListener('click', handleToggleClick);
+        });
     });
 </script>
 

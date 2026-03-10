@@ -82,9 +82,10 @@ const navLinks = [
             <div class="max-w-screen-xl mx-auto px-6 md:px-10 flex items-center justify-between h-10">
                 <a
                     href={backHref}
+                    aria-label={`Back to ${category}`}
                     class="text-xs font-normal uppercase tracking-widest text-black dark:text-white hover:opacity-70 transition-opacity flex items-center gap-2"
                 >
-                    ← Back
+                    <span aria-hidden="true">←</span> Back
                 </a>
                 <span class="text-xs font-bold uppercase tracking-widest text-black dark:text-white">
                     {category}
@@ -114,8 +115,28 @@ const navLinks = [
                 bars[1]?.classList.remove('-rotate-45', '-translate-y-[7px]');
             }
         });
+
+        // Close drawer when a nav link is clicked
+        document.querySelectorAll('#av-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu?.classList.add('hidden');
+                toggle?.setAttribute('aria-expanded', 'false');
+                bars[0]?.classList.remove('rotate-45', 'translate-y-[7px]');
+                bars[1]?.classList.remove('-rotate-45', '-translate-y-[7px]');
+            });
+        });
+
+        // Close drawer on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && toggle?.getAttribute('aria-expanded') === 'true') {
+                menu?.classList.add('hidden');
+                toggle.setAttribute('aria-expanded', 'false');
+                bars[0]?.classList.remove('rotate-45', 'translate-y-[7px]');
+                bars[1]?.classList.remove('-rotate-45', '-translate-y-[7px]');
+                (toggle as HTMLElement).focus();
+            }
+        });
     }
 
-    initMenu();
-    document.addEventListener('astro:after-swap', initMenu);
+    document.addEventListener('astro:page-load', initMenu);
 </script>
