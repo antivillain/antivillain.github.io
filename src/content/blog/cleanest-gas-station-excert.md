@@ -1,12 +1,12 @@
 ---
 title: The Cleanest Gas Station Bathroom in all of Georgia
 excerpt: An insecure photographer chases fame, but finds something more sinister. Read an excert from the book, I Saw a Stranger on the Freeway.
-publishDate: 'Jul 09 2022'
+publishDate: "Jul 09 2022"
 tags:
   - Stories
 seo:
   image:
-    src: '/img/blog-cleanest.webp'
+    src: "/img/blog-cleanest.webp"
     alt: The Cleanest in Georgia
 ---
 

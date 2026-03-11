@@ -1,12 +1,12 @@
 ---
 title: This Man Will Get You Arrested
 excerpt: If this guy ever asks you to be in his movie, refuse.
-publishDate: 'Aug 10 2022'
+publishDate: "Aug 10 2022"
 tags:
   - Articles
 seo:
   image:
-    src: '/img/blog-jimmy.webp'
+    src: "/img/blog-jimmy.webp"
     alt: Jimmy
 ---
 

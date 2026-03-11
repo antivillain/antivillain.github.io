@@ -1,13 +1,13 @@
 ---
 title: Idea Becomes Story
 excerpt: Sometimes, you get really lucky. If you’re open to it, an idea will just pop into your head. I remember this one vividly.
-publishDate: 'Feb 05 2025'
+publishDate: "Feb 05 2025"
 isFeatured: true
 tags:
   - Articles
 seo:
   image:
-    src: '/img/blog-cleanest.webp'
+    src: "/img/blog-cleanest.webp"
     alt: Idea Becomes Story
 ---
 
@@ -21,7 +21,7 @@ That initial idea got me thinking about sending emails to my past self. What wou
 
 I kept this idea in a notes file for ages, but it never really took off. I liked the idea, but it wasn’t a story. And an idea that doesn’t tell a story is pretty useless. Two of my favorite writers, Stephen King and Mark Waid, have said this a million times.
 
-Around three years ago, I was inspired to write a blog post about time travel. I asked people, *What kind of time traveler are you?* Would you go to the past or the future? The answer you gave would tell me a lot about you and how comfortable you are with your choices in life.
+Around three years ago, I was inspired to write a blog post about time travel. I asked people, _What kind of time traveler are you?_ Would you go to the past or the future? The answer you gave would tell me a lot about you and how comfortable you are with your choices in life.
 
 The blog post sparked a lot of discussion, but I didn’t feel like including a side note about emails from the future. I still thought the idea deserved more attention. So, I put it aside and waited for it to grow into a story.
 

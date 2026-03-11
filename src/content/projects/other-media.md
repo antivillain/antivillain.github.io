@@ -1,11 +1,11 @@
 ---
 title: Other Media
 description: A random collection of art, design, film, and words I've contributed to.
-publishDate: 'Jul 08 2022'
+publishDate: "Jul 08 2022"
 isFeatured: true
 seo:
   image:
-    src: '/img/project-4-1.webp'
+    src: "/img/project-4-1.webp"
 ---
 
 ![Project preview](/img/project-4-1.webp)

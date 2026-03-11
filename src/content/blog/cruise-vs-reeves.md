@@ -1,13 +1,13 @@
 ---
 title: Who would win in a fight? Tom Cruise vs. Keanu Reeves
 excerpt: The bloodless robot vs. the zen master
-publishDate: 'Apr 18 2024'
+publishDate: "Apr 18 2024"
 isFeatured: true
 tags:
   - Articles
 seo:
   image:
-    src: '/img/blog-cruise_v_reeves.png'
+    src: "/img/blog-cruise_v_reeves.png"
     alt: Cruise vs Reeves
 ---
 
@@ -19,7 +19,7 @@ Ah, the most serious of youthful pastimes - who would win in a fight? I recall m
 - Bruce Lee vs. Muhammad Ali
 - Godzilla vs. King Kong
 
-Oddly enough, we did get that last one recently, even if it was a bit disappointing (I had money on Kong). Anyways, you get the picture. Two titans squaring off in a fight to the death. Who would WIN and why? In these sometimes heated conversations, myself or my friend would have a clear favorite to rally behind. Conventional logic as well as reality would fly right out the bus window as we’d break down the fight like color commentators. 
+Oddly enough, we did get that last one recently, even if it was a bit disappointing (I had money on Kong). Anyways, you get the picture. Two titans squaring off in a fight to the death. Who would WIN and why? In these sometimes heated conversations, myself or my friend would have a clear favorite to rally behind. Conventional logic as well as reality would fly right out the bus window as we’d break down the fight like color commentators.
 
 These conversations were infinitely more fun than a game of pencil break. I wonder why we outgrew them in favor of complaining about work. In the spirit of that imaginary exercise, I’ve decided to have a who would win in a fight argument with myself. Next to enter the ring are well-known to all moviegoers:
 

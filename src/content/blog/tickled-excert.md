@@ -1,12 +1,12 @@
 ---
 title: Tickled
 excerpt: The doldrums of a dead-end retail gig are interrupted by a bizarre phone call. Read an excert from the book, I Saw a Stranger on the Freeway.
-publishDate: 'Jul 07 2022'
+publishDate: "Jul 07 2022"
 tags:
   - Stories
 seo:
   image:
-    src: '/img/blog-tickled.webp'
+    src: "/img/blog-tickled.webp"
     alt: Tickled
 ---
 

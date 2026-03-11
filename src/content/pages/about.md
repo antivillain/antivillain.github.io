@@ -4,7 +4,7 @@ seo:
   title: About
   description: ANTI-VILLAIN is a fictional imprint used to publish the work of Shawn Coots.
   image:
-    src: '/img/content-about.webp'
+    src: "/img/content-about.webp"
     alt: ANTI-VILLAIN Logo
 ---
 

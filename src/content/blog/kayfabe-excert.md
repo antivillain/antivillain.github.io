@@ -1,12 +1,12 @@
 ---
 title: Kayfabe
 excerpt: Two wrestlers struggle to stay in character while touring the deep south. Read an excert from the book, I Saw a Stranger on the Freeway.
-publishDate: 'Jul 09 2022'
+publishDate: "Jul 09 2022"
 tags:
   - Stories
 seo:
   image:
-    src: '/img/blog-kayfabe.webp'
+    src: "/img/blog-kayfabe.webp"
     alt: Wrestling
 ---
 

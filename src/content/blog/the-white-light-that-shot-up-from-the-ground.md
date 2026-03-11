@@ -1,13 +1,13 @@
 ---
 title: The White Light Shot Up from the Ground
 excerpt: In an attempt to demystify the supernatural, I asked my dad if he believes in ghosts.
-publishDate: 'Jan 13 2023'
+publishDate: "Jan 13 2023"
 isFeatured: true
 tags:
   - Articles
 seo:
   image:
-    src: '/img/blog-white-light.webp'
+    src: "/img/blog-white-light.webp"
     alt: Ghosts
 ---
 

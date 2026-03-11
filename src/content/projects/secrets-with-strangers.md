@@ -1,11 +1,11 @@
 ---
 title: Secrets with Strangers
 description: Read about From the Bar to the Bedroom, an album I released
-publishDate: 'Jul 08 2022'
+publishDate: "Jul 08 2022"
 isFeatured: true
 seo:
   image:
-    src: '/img/project-2-1.webp'
+    src: "/img/project-2-1.webp"
 ---
 
 ![Project preview](/img/project-2-1.webp)

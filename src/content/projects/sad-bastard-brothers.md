@@ -1,11 +1,11 @@
 ---
 title: Sad Bastard Brothers
 description: Read more about Hibernation Season, an album I released
-publishDate: 'Jul 08 2022'
+publishDate: "Jul 08 2022"
 isFeatured: true
 seo:
   image:
-    src: '/img/project-3-1.webp'
+    src: "/img/project-3-1.webp"
 ---
 
 ![Project preview](/img/project-3-1.webp)

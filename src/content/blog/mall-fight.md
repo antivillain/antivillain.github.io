@@ -1,13 +1,13 @@
 ---
 title: The Best Mall Fight Ever
 excerpt: You ever see a mall fight? They're the best.
-publishDate: 'Aug 15 2022'
+publishDate: "Aug 15 2022"
 isFeatured: true
 tags:
   - Articles
 seo:
   image:
-    src: '/img/blog-fight.webp'
+    src: "/img/blog-fight.webp"
     alt: Mall Fight
 ---
 
