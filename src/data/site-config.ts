@@ -97,17 +97,12 @@ const siteConfig: SiteConfig = {
   ],
   hero: {
     title: "Hello There",
-    text: "ANTI-VILLAIN is a fictional imprint I use to publish my creative endeavors. I'm a Product Manager by day, aspiring author/artist/musician by night. In my career I've worked as a designer, developer, and product leader. This blog is as random as my interests, so thanks for visiting!",
+    text: "ANTI-VILLAIN is a fictional imprint I use to publish my creative endeavors. I'm a Product Manager by day, aspiring author/artist/musician by night. In my career I've worked as a designer, developer, and product leader. This blog is as random as my interests. Thanks for reading.",
     image: {
-      src: "/img/content-index.webp",
+      src: "/img/content-index-cropped.png",
       alt: "ANTI-VILLAIN",
     },
-    actions: [
-      {
-        text: "Contact Me",
-        href: "/contact",
-      },
-    ],
+    actions: [],
   },
   subscribe: {
     title: "Subscribe to the Newsletter",

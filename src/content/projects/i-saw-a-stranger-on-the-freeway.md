@@ -1,7 +1,7 @@
 ---
 title: I Saw a Stranger on the Freeway
 description: Read five new short stories in this paperback collection.
-publishDate: "Jul 08 2022"
+publishDate: "Jul 08 2023"
 isFeatured: true
 seo:
   image:

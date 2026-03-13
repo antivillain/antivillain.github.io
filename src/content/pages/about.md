@@ -8,8 +8,10 @@ seo:
     alt: ANTI-VILLAIN Logo
 ---
 
-![About](/img/content-about.webp)
-_Photo by Matt Simpson_
+<figure style="float: right; margin: 0 0 1.5rem 2rem; max-width: 280px;">
+  <img src="/img/content-about.webp" alt="About" style="margin: 0;" />
+  <figcaption style="font-size: 0.8rem; font-style: italic; margin-top: 0.4rem;">Photo by Matt Simpson</figcaption>
+</figure>
 
 ### What is _ANTI-VILLAIN_?
 

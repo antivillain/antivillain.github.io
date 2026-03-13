@@ -1,7 +1,7 @@
 ---
 title: Other Media
 description: A random collection of art, design, film, and words I've contributed to.
-publishDate: "Jul 08 2022"
+publishDate: "Jul 05 2022"
 isFeatured: true
 seo:
   image:
