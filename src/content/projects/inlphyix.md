@@ -21,7 +21,7 @@ Those aforementioned EPs are named after neighboring communities in our small to
 
 The lyrics I wrote for these songs were inspired by a dystopian nightmare I'm desperately trying to raise my children in. I also reckoned with Southern Baptist hypocrisy™, estrangement, merciless bullies, systemic class wars, weaponized nostalgia, oh, and optimism.
 
-When we had arrangements we all considered "bops," we turned to Louisville's best producer - Anne Gauthier of LaLaLand Studios. Anne spent a few weekends with us capturing and perfecting 10 songs of varying genres.
+When we had arrangements we all considered "bops," we turned to Louisville's best producer - Anne Gauthier of LaLaLand Studios. Anne spent a few weekends with us capturing and perfecting 10 songs of varying genres. Listen to them on our [Bandcamp page](https://inlphyix.bandcamp.com)
 
 ### We recorded an album. So what?
 How do people market things in this day and age? Streaming and algorithms have forever altered how we listen to music. Truth be told, I still haven't figured that part out. But I do know you need a cool cover if you want to sell records. Luckily, I know some amazing artists - like my pal Lelia Rechtin. When I told Lelia some of the themes on the albums, she pitched a bit of nostalgia rendered entirely in felt. When she showed us the initial sketches, we knew we'd landed the design.
@@ -47,8 +47,6 @@ Becki Hyde - Geocities Website Design
 Jimmy Humphrey - videos for almost all of the songs
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=JVPt7sT_oA5PpQYL&amp;list=PLe3GYjJhJ_VYnGucc1XjNsswuQ0wZXF7Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 
 Seeing all of these pieces come in was nearly as much fun as hearing the album for the first time. I'm super grateful they all contributed to this record.
 
