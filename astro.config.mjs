@@ -1,9 +1,9 @@
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import tailwind from "@astrojs/tailwind";
 import partytown from "@astrojs/partytown";
 import mcp from "astro-mcp";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   site: "https://anti-villain.com",
@@ -15,9 +15,9 @@ export default defineConfig({
         forward: ["dataLayer.push"],
       },
     }),
-    tailwind({
-      applyBaseStyles: false,
-    }),
     mcp(),
   ],
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
