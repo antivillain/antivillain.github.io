@@ -1,5 +1,9 @@
+import type { ImageMetadata } from "astro";
+import siteImage from "../assets/img/content-index.webp";
+import heroImage from "../assets/img/content-index-cropped.png";
+
 export type Image = {
-  src: string;
+  src: string | ImageMetadata;
   alt?: string;
   caption?: string;
 };
@@ -40,9 +44,9 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
   title: "ANTI-VILLAIN",
   subtitle: "Portfolio of Shawn Coots",
-  description: "The Portfolio of Shawn Coots",
+  description: "Short stories, albums, comics and the ComicDraft app by Louisville writer and musician Shawn Coots.",
   image: {
-    src: "/img/content-index.webp",
+    src: siteImage,
     alt: "ANTI-VILLAIN",
   },
   logo: {
@@ -99,7 +103,7 @@ const siteConfig: SiteConfig = {
     title: "Hello There",
     text: "ANTI-VILLAIN is a fictional imprint I use to publish my creative endeavors. I'm a Product Manager by day, aspiring author/artist/musician by night. In my career I've worked as a designer, developer, and product leader. This blog is as random as my interests. Thanks for reading.",
     image: {
-      src: "/img/content-index-cropped.png",
+      src: heroImage,
       alt: "ANTI-VILLAIN",
     },
     actions: [],

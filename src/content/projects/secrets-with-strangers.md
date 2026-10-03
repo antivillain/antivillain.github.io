@@ -4,11 +4,13 @@ description: Read about From the Bar to the Bedroom, an album I released
 publishDate: "Jul 08 2022"
 isFeatured: true
 seo:
+  title: "From the Bar to the Bedroom by Secrets with Strangers"
+  description: "From the Bar to the Bedroom is a 2011 alternative album by Secrets with Strangers. Read the story behind it and stream it on Spotify and Apple Music."
   image:
-    src: "/img/project-2-1.webp"
+    src: "../../assets/img/project-2-1.webp"
 ---
 
-![Project preview](/img/project-2-1.webp)
+![Project preview](../../assets/img/project-2-1.webp)
 
 My old band had taken an extended hiatus after kids entered the picture. Sometime after, I met Kirk Kiefer through an old friend of mine - quickly bonding over a mutual love of Batman comics. As it turned out, Kirk was also a well-rounded musician, playing bass and singing in the alt-country band Yardsale. After attending one of their shows, I got the itch to start playing music again.
 
@@ -26,7 +28,7 @@ Once the songs were in a good place, we booked studio time at FLD Studios, run b
 
 From there, Kirk and I recorded the rest of the tracks at my apartment. I spent several weeks locked in my bedroom, playing my guitar loudly, to the exasperation of my neighbors.
 
-![Album Design](/img/project-2-albumcover.webp)
+![Album Design](../../assets/img/project-2-albumcover.webp)
 
 Chris Humphreys took some photos inside of the bar closest to my bedroom, Seidenfaden’s, which I used to design the sleeve. Martha contributed the artwork that is printed on the actual disc. Although the project started mostly as an experiment between Kirk and I, several people helped us finish it. Jordan was a huge help, mixing the album after we finished tracking. Kevin Ratterman (of the Funeral Home) stepped in to master the album.
 

@@ -6,11 +6,11 @@ tags:
   - Stories
 seo:
   image:
-    src: "/img/blog-kayfabe.webp"
+    src: "../../assets/img/blog-kayfabe.webp"
     alt: Wrestling
 ---
 
-![Wrestling](/img/blog-kayfabe.webp)
+![Wrestling](../../assets/img/blog-kayfabe.webp)
 
 Restless and rowdy fans of GFW Wrestling filled the gymnasium of Red Bank High to capacity, hurling paper cups half-full of RC Cola and fistfuls of stale popcorn at the faded blue ring. The match wasn’t going over with the crowd, forcing the two burly curtain-jerkers to hightail it out of there before the fans decided to throw something worse.
 

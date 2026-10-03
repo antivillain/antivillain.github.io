@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import { marked } from 'marked';
 import Button from './Button.astro';
 import siteConfig from '../data/site-config';
@@ -11,7 +12,11 @@ const hero = siteConfig.hero;
         <section class="hero w-full mb-16 sm:mb-24">
             {hero.image?.src && (
                 <figure class="hero-image">
-                    <img src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
+                    {typeof hero.image.src === 'string' ? (
+                        <img src={hero.image.src} loading="eager" fetchpriority="high" alt={hero.image.alt || ''} />
+                    ) : (
+                        <Image src={hero.image.src} loading="eager" fetchpriority="high" alt={hero.image.alt || ''} sizes="(min-width: 640px) 270px, 270px" />
+                    )}
                     {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
                 </figure>
             )}
@@ -35,6 +40,7 @@ const hero = siteConfig.hero;
 
     .hero-image img {
         width: 100%;
+        height: auto;
     }
 
     /* Mobile: image stacks above title naturally via DOM order */

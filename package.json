@@ -1,5 +1,5 @@
 {
-  "name": "dante-astro-theme",
+  "name": "anti-villain",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -29,7 +29,7 @@
     "prettier-plugin-tailwindcss": "^0.8.1",
     "typescript": "^6.0.3"
   },
-  "description": "Dante is a single-author blog and portfolio theme for Astro.js. Featuring a minimal, slick, responsive and content-focused design. For more Astro.js themes please check [justgoodui.com](https://justgoodui.com/).",
+  "description": "ANTI-VILLAIN: the portfolio of Shawn Coots — fiction, music, comics and apps. Built with Astro.",
   "main": "index.js",
   "author": "",
   "license": "ISC"

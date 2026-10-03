@@ -7,11 +7,11 @@ tags:
   - Stories
 seo:
   image:
-    src: "/img/blog-deadbeat.png"
+    src: "../../assets/img/blog-deadbeat.png"
     alt: Deadbeat
 ---
 
-![Deadbeat](/img/blog-deadbeat.png)
+![Deadbeat](../../assets/img/blog-deadbeat.png)
 
 Sprawled under an old beige pickup, Sonny felt the rumble of a 454 big block engine as it pulled into the shop. He twisted the oil cap back in place then rolled out from under the truck. "What's kicking up all the fuss, Phil?"
 

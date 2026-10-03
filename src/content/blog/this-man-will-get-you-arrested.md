@@ -6,11 +6,11 @@ tags:
   - Articles
 seo:
   image:
-    src: "/img/blog-jimmy.webp"
+    src: "../../assets/img/blog-jimmy.webp"
     alt: Jimmy
 ---
 
-![Jimmy](/img/blog-jimmy.webp)
+![Jimmy](../../assets/img/blog-jimmy.webp)
 
 I was wearing a ski mask and trench coat in the middle of July. In one hand was a plastic pistol, the other, a stick of rubber dynamite. We knew they were just movie props, but the two police officers did not. The guns they had pointed at my head were both very real and very loaded. Only someone as haphazard as Jimmy Tits could land me in such a predicament.
 

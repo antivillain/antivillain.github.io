@@ -7,11 +7,11 @@ tags:
   - Articles
 seo:
   image:
-    src: "/img/blog-cruise_v_reeves.png"
+    src: "../../assets/img/blog-cruise_v_reeves.png"
     alt: Cruise vs Reeves
 ---
 
-![Cruise vs Reeves](/img/blog-cruise_v_reeves.png)
+![Cruise vs Reeves](../../assets/img/blog-cruise_v_reeves.png)
 
 Ah, the most serious of youthful pastimes - who would win in a fight? I recall many passionate arguments with friends, usually involving fictional characters, athletes, and/or movie stars, such as:
 

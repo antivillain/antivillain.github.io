@@ -6,11 +6,11 @@ tags:
   - Stories
 seo:
   image:
-    src: "/img/blog-cleanest.webp"
+    src: "../../assets/img/blog-cleanest.webp"
     alt: The Cleanest in Georgia
 ---
 
-![The Cleanest in Georgia](/img/blog-cleanest.webp)
+![The Cleanest in Georgia](../../assets/img/blog-cleanest.webp)
 
 The SARDINE gallery was filled with the right blend of glitterati taste-makers and upstart scene-snobs — each desperate to mix in with NYC’s old guard of art elite. Stephen noticed a sly smile from his agent. Julia’s meticulous plan to invite the perfect guest list had been a smashing success. While Stephen didn’t recognize everyone, a few notable attendees caught his eye. In the far corner of the gallery where his centerpiece hung stood none other than Blue Herring and Tricky Lix — two artists that “got him through college,” as he would later be quoted in an article for Juxtapoz magazine.
 

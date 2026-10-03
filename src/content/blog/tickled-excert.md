@@ -6,11 +6,11 @@ tags:
   - Stories
 seo:
   image:
-    src: "/img/blog-tickled.webp"
+    src: "../../assets/img/blog-tickled.webp"
     alt: Tickled
 ---
 
-![Tickled](/img/blog-tickled.webp)
+![Tickled](../../assets/img/blog-tickled.webp)
 
 Casey stared at the pile of pink slips, a mix of dread and ennui forming deep in her belly. The imagined pains of customer interaction sloshed alongside the salted pretzel and cherry Icee she wolfed down before clocking in. Tuesday mornings were considered the shortest straw of shit-shifts. You had to call every reservation slip to let customers know their DVD was sitting in a box collecting dust — and would continue to do so until they coughed up the money they promised the Suncoast Video Company in good faith.
 

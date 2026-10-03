@@ -7,11 +7,11 @@ tags:
   - Articles
 seo:
   image:
-    src: "/img/blog-white-light.webp"
+    src: "../../assets/img/blog-white-light.webp"
     alt: Ghosts
 ---
 
-![Ghosts](/img/blog-white-light.webp)
+![Ghosts](../../assets/img/blog-white-light.webp)
 
 Kids today can spend hours on Reddit or elsewhere to demystify all manner of unexplained phenomena. Comparatively speaking - growing up in the pre-internet ‘80s - the world still held a certain type of mystique. Our exposure to the unknown consisted of intermittent network TV specials about topics such as the Bermuda Triangle or the Loch Ness Monster. As such, our imaginations often ran wild in regard mysteries of this strange planet.
 

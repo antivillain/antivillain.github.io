@@ -1,0 +1,88 @@
+---
+/**
+ * Site-wide JSON-LD: who runs the site (Person), the site itself (WebSite),
+ * and a breadcrumb trail on interior pages (BreadcrumbList).
+ */
+import { getImage } from 'astro:assets';
+import siteConfig from '../data/site-config';
+import aboutPhoto from '../assets/img/content-about.webp';
+
+export type Props = {
+    /** Plain page name for the last breadcrumb, e.g. the visible H1. */
+    breadcrumb?: string;
+};
+
+const site = Astro.site!;
+const abs = (path: string) => new URL(path, site).toString();
+const personId = abs('/#person');
+const websiteId = abs('/#website');
+
+const portrait = await getImage({ src: aboutPhoto, width: 800, format: 'jpg', quality: 80, layout: 'none' });
+
+const person = {
+    '@type': 'Person',
+    '@id': personId,
+    name: 'Shawn Coots',
+    url: abs('/'),
+    image: abs(portrait.src),
+    description: 'Louisville writer, musician, designer and app maker who publishes his work under the ANTI-VILLAIN imprint.',
+    homeLocation: { '@type': 'Place', name: 'Louisville, Kentucky' },
+    sameAs: [
+        'https://www.linkedin.com/in/shawncoots/',
+        'https://github.com/shawncoots',
+        'https://www.instagram.com/cootsdaddy/',
+        'https://www.webtoons.com/p/community/en/u/shawncoots',
+        'https://www.amazon.com/stores/author/B00C9GSZ82'
+    ]
+};
+
+const website = {
+    '@type': 'WebSite',
+    '@id': websiteId,
+    url: abs('/'),
+    name: siteConfig.title,
+    alternateName: 'Shawn Coots',
+    description: siteConfig.description,
+    inLanguage: 'en',
+    publisher: { '@id': personId }
+};
+
+// Breadcrumbs from the URL: /projects/comicdraft/ -> Home > Projects > ComicDraft
+const sectionNames: Record<string, string> = {
+    projects: 'Projects',
+    blog: 'Articles',
+    tags: 'Tags',
+    about: 'About',
+    contact: 'Contact'
+};
+const segments = Astro.url.pathname.split('/').filter(Boolean);
+let breadcrumbList;
+if (segments.length > 0) {
+    const items = [{ name: 'Home', path: '/' }];
+    segments.forEach((segment, i) => {
+        const path = '/' + segments.slice(0, i + 1).join('/') + '/';
+        const isLast = i === segments.length - 1;
+        const name = isLast && Astro.props.breadcrumb
+            ? Astro.props.breadcrumb
+            : /^\d+$/.test(segment)
+              ? `Page ${segment}`
+              : (sectionNames[segment] ?? segment.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()));
+        items.push({ name, path });
+    });
+    breadcrumbList = {
+        '@type': 'BreadcrumbList',
+        itemListElement: items.map((item, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            name: item.name,
+            item: abs(item.path)
+        }))
+    };
+}
+
+const graph = { '@context': 'https://schema.org', '@graph': [website, person, breadcrumbList].filter(Boolean) };
+// Escape "<" so content can never close the script tag early.
+const json = JSON.stringify(graph).replace(/</g, '\\u003c');
+---
+
+<script type="application/ld+json" set:html={json} />

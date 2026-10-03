@@ -7,11 +7,11 @@ tags:
   - Articles
 seo:
   image:
-    src: "/img/blog-cleanest.webp"
+    src: "../../assets/img/blog-cleanest.webp"
     alt: Idea Becomes Story
 ---
 
-![Idea Becomes Story](/img/blog-idea_becomes_story.png)
+![Idea Becomes Story](../../assets/img/blog-idea_becomes_story.png)
 
 Sometimes, you get really lucky. If you’re open to it, an idea will just pop into your head. I remember this one vividly. It happened in the summer of 2012. I was sitting behind my computer, working on a WordPress theme. While I was typing up some CSS, my mind started wandering. I was in a flow state, daydreaming. The idea went something like this:
 

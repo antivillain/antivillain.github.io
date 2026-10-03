@@ -7,11 +7,11 @@ tags:
   - Articles
 seo:
   image:
-    src: "/img/blog-fight.webp"
+    src: "../../assets/img/blog-fight.webp"
     alt: Mall Fight
 ---
 
-![Mall Fight](/img/blog-fight.webp)
+![Mall Fight](../../assets/img/blog-fight.webp)
 
 As we are plagued once again by the holiday shopping nightmare, our malls have begun their descent into the hellish chaos that capitalism demands. If you need proof, search YouTube for mall fights. I’ll wait...
 

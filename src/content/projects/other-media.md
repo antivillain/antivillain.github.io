@@ -5,14 +5,14 @@ publishDate: "Jul 05 2022"
 isFeatured: true
 seo:
   image:
-    src: "/img/project-4-1.webp"
+    src: "../../assets/img/project-4-1.webp"
 ---
 
-![Project preview](/img/project-4-1.webp)
+![Project preview](../../assets/img/project-4-1.webp)
 
 ### The Last Bachelor in Space - eBook
 
-![The Last Bachelor in Space](/img/project-lastbachelor.webp)
+![The Last Bachelor in Space](../../assets/img/project-lastbachelor.webp)
 
 When Matt Dobson started a local paper, he kindly asked me to write a sci-fi serial adventure for it. I jumped at the chance, and each month, a contributed a chapter. Once the story wrapped, Matt designed a cover, and we released the collection as an eBook.
 
@@ -20,19 +20,19 @@ Download it on [Amazon](https://www.amazon.com/Last-Bachelor-Space-Shawn-Coots-e
 
 ### The Golden Record - Comic - Script/Art
 
-![The Golden Record](/img/project-goldenrecord.webp)
+![The Golden Record](../../assets/img/project-goldenrecord.webp)
 
 For a comics-focused issue of the Paper, I contributed a single page comic. It took me a full weekend to pencil and ink the strip. [Click here to see the full page.](/files/DanBrownComic.pdf)
 
 ### G.H.O.S.T. Agents - Comic - Colorist
 
-![GHOST Agents](/img/project-ghostagents.webp)
+![GHOST Agents](../../assets/img/project-ghostagents.webp)
 
 My friend [Rocko Jerome](https://rockojerome.com) has been writing a successful Kickstarter anthology called [G.H.O.S.T. Agents](https://www.kickstarter.com/projects/ghostagents/ghost-agents-apocalyptico). He kindly asked if I could color a few pages of a story [John Burkett](https://johnburkett.substack.com) had drawn. I’ve always enjoyed coloring comics, but had never done it professional until this project.
 
 ### DayDrunk - Short film - Writer, Director
 
-![DayDrunk](/img/project-daydrunk.webp)
+![DayDrunk](../../assets/img/project-daydrunk.webp)
 
 My old friend, Deathmetal Dave, has been telling us for years to make a movie about him. “I’m too good looking not to be on film,” he’d say. Finally, I caved. I wrote and directed this short film, then convinced my friends to act in it. Seidenfaden’s was kind enough to let us film in their bar. Matt Real handled Director of Photography and editing duties.
 

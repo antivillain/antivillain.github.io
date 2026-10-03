@@ -4,12 +4,15 @@ seo:
   title: About
   description: ANTI-VILLAIN is a fictional imprint used to publish the work of Shawn Coots.
   image:
-    src: "/img/content-about.webp"
+    src: "../../assets/img/content-about.webp"
     alt: ANTI-VILLAIN Logo
 ---
 
+import { Image } from 'astro:assets';
+import aboutPhoto from '../../assets/img/content-about.webp';
+
 <figure style="float: right; margin: 0 0 1.5rem 2rem; max-width: 280px;">
-  <img src="/img/content-about.webp" alt="About" style="margin: 0;" />
+  <Image src={aboutPhoto} alt="About" width={560} sizes="280px" style="margin: 0;" />
   <figcaption style="font-size: 0.8rem; font-style: italic; margin-top: 0.4rem;">Photo by Matt Simpson</figcaption>
 </figure>
 

@@ -1,20 +1,29 @@
 ---
+import type { ImageMetadata } from 'astro';
+import { getImage } from 'astro:assets';
+import StructuredData from './StructuredData.astro';
 import siteConfig from '../data/site-config';
 import '../styles/global.css';
 
 export type Props = {
     title?: string;
     description?: string;
-    image?: { src: string; alt?: string };
+    image?: { src: string | ImageMetadata; alt?: string };
     pageType?: 'website' | 'article';
+    breadcrumb?: string;
 };
 
 const { description = '', image = siteConfig.image, pageType = 'website' } = Astro.props;
 const title = [Astro.props.title, siteConfig.title].filter(Boolean).join(' | ');
-const resolvedImage = image?.src
+// Social previews: optimized assets are resized to 1200px JPEGs, which every platform accepts.
+const socialImageSrc =
+    image?.src && typeof image.src !== 'string'
+        ? (await getImage({ src: image.src, width: Math.min(1200, image.src.width), format: 'jpg', quality: 80, layout: 'none' })).src
+        : image?.src;
+const resolvedImage = socialImageSrc
     ? {
-          src: new URL(image.src, Astro.site).toString(),
-          alt: image.alt
+          src: new URL(socialImageSrc, Astro.site).toString(),
+          alt: image?.alt
       }
     : undefined;
 const canonicalURL = new URL(Astro.request.url, Astro.site);
@@ -72,3 +81,6 @@ function formatCanonicalURL(url: string | URL) {
 <meta property="twitter:description" content={description} />
 {resolvedImage?.src && <meta property="twitter:image" content={resolvedImage.src} />}
 {resolvedImage?.alt && <meta name="twitter:image:alt" content={resolvedImage?.alt} />}
+
+<!-- Structured data -->
+<StructuredData breadcrumb={Astro.props.breadcrumb} />

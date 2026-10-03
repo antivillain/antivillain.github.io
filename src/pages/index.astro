@@ -15,7 +15,7 @@ const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
 const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 ---
 
-<BaseLayout description={siteConfig.description} image={siteConfig.image} wide>
+<BaseLayout title="Shawn Coots: Fiction, Music, Comics & Apps" description={siteConfig.description} image={siteConfig.image} wide>
     <Hero />
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 sm:gap-16">
         {

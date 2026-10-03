@@ -4,11 +4,13 @@ description: I wanted my dream comic scripting app, so I ended up building it my
 publishDate: "Sep 8 2026"
 isFeatured: true
 seo:
+  title: "ComicDraft: Comic Script Writing App for Mac & iPad"
+  description: "ComicDraft is a comic script writing app for Mac and iPad with auto-numbered pages and panels, iCloud sync, no AI and no tracking. One-time purchase."
   image:
-    src: "/img/blog-comicdraft.png"
+    src: "../../assets/img/blog-comicdraft.png"
 ---
 
-![ComicDraft](/img/blog-comicdraft.png)
+![ComicDraft](../../assets/img/blog-comicdraft.png)
 
 I’ve tried a lot of writing apps over the years, for a multitude of mediums. Beyond the boring likes of Word and pages exist apps geared toward specific formats, like novels, screenplays, and blogs. There’s also no shortage of writing apps built for Markdown nerds, and believe me, I’ve tried them all. It’s a shame how many of those apps are now subscription-based. 
 

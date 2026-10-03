@@ -4,17 +4,19 @@ description: Curious about my new band? Learn all about the art and music of INL
 publishDate: "March 12 2026"
 isFeatured: true
 seo:
+  title: "INLPHYIX: Cosmic Shoegaze from Louisville"
+  description: "INLPHYIX is a cosmic shoegaze band from Louisville, Kentucky. Explore the band's art and music, and listen on Bandcamp."
   image:
-    src: "/img/project-5-1.webp"
+    src: "../../assets/img/project-5-1.webp"
 ---
 
-![Project preview](/img/project-5-1.webp)
+![Project preview](../../assets/img/project-5-1.webp)
 
 Sometimes teenagers start cover bands named after their favorite Cure song (Wish) and play a handful of shows before growing up and moving away from their small towns. Maybe they start other bands, but eventually they settle into adult jobs that stifle their creative spirit. At least that's what happened to me, Jason McKee, and Ryan Doughty.
 
 But since the world is actually a small place, Jason and I ended up working together years later. In a predictable turn of events, we decided to jam one day after work. We had so much fun, we invited our old pal Ryan to bring a bass and join us. That was about two years ago. Since then, we wrote and recorded two EPs that we're quite fond of and hope you will enjoy as well. We also named the band INLPHYIX after a CICS mainframe screen created in 1985.
 
-![EP Covers](/img/project-5-2.webp)
+![EP Covers](../../assets/img/project-5-2.webp)
 
 ### Cool Springs & Woodbury
 Those aforementioned EPs are named after neighboring communities in our small town. I grew up in Cool Springs, while Jason and Ryan were down the road in Woodbury.
@@ -29,17 +31,17 @@ How do people market things in this day and age? Streaming and algorithms have f
 ### Campaign Art
 Seeing Lelia's finished Felt covers, I was inspired to ask our other artist friends if they'd like to make something for the project. Just about every artist I know is struggling to make sense of a world where AI threatens art. Our attention is constantly disrupted by one terrible event after another. Creating is an act of resistance, but also joy. We are very lucky to know so many talented people who created imagery for the album, such as:
 
-![Chris and Matt](/img/project-5-3.webp)
+![Chris and Matt](../../assets/img/project-5-3.webp)
 Chris Greenlee - Bury Me in Kentucky single cover
 Matt Simpson - That's the Gospel Truth single cover
 
-![Josh](/img/project-5-6.webp)
+![Josh](../../assets/img/project-5-6.webp)
 Josh Keown - Murberer promo art
 
-![Matt](/img/project-5-5.webp)
+![Matt](../../assets/img/project-5-5.webp)
 Matt Dobson - Retro Futures promo art
 
-![Becki](/img/project-5-7.webp)
+![Becki](../../assets/img/project-5-7.webp)
 Becki Hyde - Geocities Website Design
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=ZMlFYlt34iQm1KKD&amp;list=PLe3GYjJhJ_VZzzBvN3B-QxC1HGu61wkMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

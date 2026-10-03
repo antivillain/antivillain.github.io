@@ -7,6 +7,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   site: "https://anti-villain.com",
+  image: {
+    layout: "constrained",
+  },
   integrations: [
     mdx(),
     sitemap(),
