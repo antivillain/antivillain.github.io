@@ -3,6 +3,9 @@ title: Inlphyix
 description: Curious about my new band? Learn all about the art and music of INLPHYIX.
 publishDate: "March 12 2026"
 isFeatured: true
+thumbnail:
+  src: "../../assets/img/thumb-project-5-1.webp"
+  alt: INLPHYIX
 seo:
   title: "INLPHYIX: Cosmic Shoegaze from Louisville"
   description: "INLPHYIX is a cosmic shoegaze band from Louisville, Kentucky. Explore the band's art and music, and listen on Bandcamp."

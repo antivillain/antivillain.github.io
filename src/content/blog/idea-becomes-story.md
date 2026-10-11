@@ -5,9 +5,12 @@ publishDate: "Feb 05 2025"
 isFeatured: true
 tags:
   - Articles
+thumbnail:
+  src: "../../assets/img/thumb-blog-idea_becomes_story.webp"
+  alt: Idea Becomes Story
 seo:
   image:
-    src: "../../assets/img/blog-cleanest.webp"
+    src: "../../assets/img/blog-idea_becomes_story.png"
     alt: Idea Becomes Story
 ---
 

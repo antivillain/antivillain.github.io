@@ -13,6 +13,13 @@ const seoSchema = (image: SchemaContext['image']) => z.object({
   pageType: z.enum(["website", "article"]).default("website"),
 });
 
+// Optional square-friendly image for list thumbnails. When omitted,
+// previews fall back to seo.image (center-cropped).
+const thumbnailSchema = (image: SchemaContext['image']) => z.object({
+  src: image(),
+  alt: z.string().optional(),
+});
+
 const blog = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/blog" }),
   schema: ({ image }) => z.object({
@@ -22,6 +29,7 @@ const blog = defineCollection({
     updatedDate: z.coerce.date().optional(),
     isFeatured: z.boolean().default(false),
     tags: z.array(z.string()).default([]),
+    thumbnail: thumbnailSchema(image).optional(),
     seo: seoSchema(image).optional(),
   }),
 });
@@ -41,6 +49,7 @@ const projects = defineCollection({
     description: z.string().optional(),
     publishDate: z.coerce.date(),
     isFeatured: z.boolean().default(false),
+    thumbnail: thumbnailSchema(image).optional(),
     seo: seoSchema(image).optional(),
   }),
 });

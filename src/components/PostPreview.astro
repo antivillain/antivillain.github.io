@@ -1,17 +1,29 @@
 ---
 import { type CollectionEntry } from 'astro:content';
-import ArrowRight from '../icons/ArrowRight.astro';
 import FormattedDate from './FormattedDate.astro';
+import Thumbnail, { type ThumbnailShape } from './Thumbnail.astro';
 
-type Props = { post: CollectionEntry<'blog'>; class?: string; headingLevel?: 'h2' | 'h3' };
+type Props = {
+    post: CollectionEntry<'blog'>;
+    class?: string;
+    headingLevel?: 'h2' | 'h3';
+    /** Show a thumbnail in this shape. Omit for a text-only preview. */
+    thumbnail?: ThumbnailShape;
+    /** Tailwind size classes for the thumbnail box. */
+    thumbnailClass?: string;
+    /** Matching `sizes` attribute for the thumbnail image. */
+    thumbnailSizes?: string;
+};
 
-const { post, class: className, headingLevel = 'h2' } = Astro.props;
-const { title, publishDate, updatedDate, excerpt } = post.data;
+const { post, class: className, headingLevel = 'h2', thumbnail, thumbnailClass = 'w-18 h-18 sm:w-22 sm:h-22', thumbnailSizes } = Astro.props;
+const { title, publishDate, updatedDate, excerpt, seo } = post.data;
+const thumb = post.data.thumbnail ?? seo?.image;
 const TitleTag = headingLevel;
 ---
 
-<a class:list={['flex justify-between items-start gap-8 group', className]} href={`/blog/${post.id}/`}>
-    <div class="grow">
+<a class:list={['flex items-start gap-5 group sm:gap-6', className]} href={`/blog/${post.id}/`}>
+    {thumbnail && thumb && <Thumbnail src={thumb.src} alt={thumb.alt ?? ''} shape={thumbnail} sizes={thumbnailSizes} class={thumbnailClass} />}
+    <div class="grow min-w-0">
         <TitleTag
             class="text-xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl"
         >

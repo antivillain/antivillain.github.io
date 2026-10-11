@@ -3,6 +3,9 @@ title: Sad Bastard Brothers
 description: Read more about Hibernation Season, an album I released
 publishDate: "Jul 07 2022"
 isFeatured: true
+thumbnail:
+  src: "../../assets/img/thumb-project-3-1.webp"
+  alt: Hibernation Season
 seo:
   title: "Hibernation Season by Sad Bastard Brothers (2007)"
   description: "Hibernation Season is a 2007 alt-country album by Sad Bastard Brothers. Read the story behind it and stream it on Spotify and Apple Music."

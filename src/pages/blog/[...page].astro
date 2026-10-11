@@ -20,6 +20,6 @@ const blog = page.data;
 
 <BaseLayout title="Articles" description="Essays and short fiction by Shawn Coots: ghosts, mall fights, wrestlers and movie stars." showHeader={false}>
     <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Articles</h1>
-    {blog.map((post) => <PostPreview post={post} class="mb-10 sm:mb-12" />)}
+    {blog.map((post) => <PostPreview post={post} class="mb-10 sm:mb-12" thumbnail="square" thumbnailClass="w-24 h-24 sm:w-34 sm:h-34" thumbnailSizes="(min-width: 640px) 136px, 96px" />)}
     <Pagination page={page} class="my-16 sm:my-24" />
 </BaseLayout>

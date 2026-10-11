@@ -5,6 +5,9 @@ publishDate: "Mar 13 2026"
 isFeatured: true
 tags:
   - Stories
+thumbnail:
+  src: "../../assets/img/thumb-blog-deadbeat.webp"
+  alt: Deadbeat
 seo:
   image:
     src: "../../assets/img/blog-deadbeat.png"

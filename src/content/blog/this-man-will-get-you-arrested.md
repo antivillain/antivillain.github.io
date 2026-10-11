@@ -4,6 +4,9 @@ excerpt: If this guy ever asks you to be in his movie, refuse.
 publishDate: "Aug 10 2022"
 tags:
   - Articles
+thumbnail:
+  src: "../../assets/img/thumb-blog-jimmy.webp"
+  alt: Jimmy
 seo:
   image:
     src: "../../assets/img/blog-jimmy.webp"

@@ -4,6 +4,9 @@ excerpt: The doldrums of a dead-end retail gig are interrupted by a bizarre phon
 publishDate: "Jul 07 2022"
 tags:
   - Stories
+thumbnail:
+  src: "../../assets/img/thumb-blog-tickled.webp"
+  alt: Tickled
 seo:
   image:
     src: "../../assets/img/blog-tickled.webp"

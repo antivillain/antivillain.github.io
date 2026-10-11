@@ -3,6 +3,9 @@ title: I Saw a Stranger on the Freeway
 description: Read five new short stories in this paperback collection.
 publishDate: "Jul 08 2023"
 isFeatured: true
+thumbnail:
+  src: "../../assets/img/thumb-project-1-1.webp"
+  alt: I Saw a Stranger on the Freeway
 seo:
   title: "I Saw a Stranger on the Freeway: Short Stories by Shawn Coots"
   description: "I Saw a Stranger on the Freeway is a fiction collection of five short stories by Shawn Coots, available in paperback and ebook."
